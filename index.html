@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-A-Sketch</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Etch-A-Sketch</h1>
+    </div>
+    <div id="container">
+        <div id="control">
+            <div id="slidercontainer">
+                <div id="slidervaluecontainer">
+                </div>
+                <input type="range" min="16" max="100" value="16" class="slider" id="slider">
+                <div id="colorcontainer">
+                    <p> Color Selector</p>
+                    <input type="color" id="colorpicker">
+                </div>
+            </div>
+            <div id="buttons">
+                <button id="color">Color</button>
+                <button id="black">Monochrome</button>
+                <button id="eraser">Eraser</button>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+        <div id="grid">
+        </div>
+    </div>
+    <div id="footer">
+        Young-Joon Park 2022.
+    </div>
+</body>
+</html>
